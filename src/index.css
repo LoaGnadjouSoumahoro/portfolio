@@ -69,6 +69,7 @@ html {
   font-family: 'Biryani', sans-serif;
   background-color: var(--cl-black);
   scroll-behavior: smooth;
+  background-color: var(--cl-white);
 }
 
 body {
