@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 8px;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.header-logo_logo {
+  width: 48px;
+  height: 48px;
+}
+
+.header-logo_text {
+  font-size: 1.875rem;
+  font-weight: var(--weight-700);
+  line-height: 1.2;
+  color: var(--cl-blue);
+}
+
+.header-nav_items {
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  font-weight: var(--weight-400);
+  /* gap: 43px; */
+}
+.header-nav_item {
+  color: var(--cl-blue);
+  margin-left: 25px;
+}
+
+.header-nav_item:hover {
+  color: var(--cl-yellow);
+}
