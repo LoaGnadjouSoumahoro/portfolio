@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 8px;
+}
+
+.header-logo {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-logo_logo {
+  width: 48px;
+  height: 48px;
+}
+
+.header-logo_text {
+  font-size: 1.875rem;
+  font-weight: var(--weight-700);
+  line-height: 1.2;
+}
+
+.header-nav_items {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  font-weight: var(--weight-400);
+  gap: 43px;
+}

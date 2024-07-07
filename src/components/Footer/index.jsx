@@ -1,6 +1,7 @@
+import Container from '../layout/container/Container';
 import './footer.css';
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return <Container>Footer</Container>;
 };
 export default Footer;
