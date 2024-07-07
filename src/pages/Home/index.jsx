@@ -1,5 +1,5 @@
 // import Card from '../../components/card';
-import Container from '../../components/layout/container/Container';
+
 import './home.css';
 import Hero from '../../components/section/hero';
 import AboutMe from '../../components/section/aboutMe';
@@ -26,13 +26,13 @@ const Home = () => {
   //
 
   return (
-    <Container>
+    <div>
       <Hero />
       <AboutMe />
       <Skills />
       <Projets />
       <Contact />
-    </Container>
+    </div>
   );
 };
 export default Home;
