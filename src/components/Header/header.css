@@ -6,8 +6,8 @@
 
 .header-logo {
   display: flex;
-  justify-self: center;
-  align-items: center;
+  justify-content: center;
+  /* align-items: center; */
   gap: 10px;
 }
 
@@ -20,12 +20,21 @@
   font-size: 1.875rem;
   font-weight: var(--weight-700);
   line-height: 1.2;
+  color: var(--cl-blue);
 }
 
 .header-nav_items {
-  display: inline-block;
   justify-content: center;
   align-items: center;
+  align-items: center;
   font-weight: var(--weight-400);
-  gap: 43px;
+  /* gap: 43px; */
+}
+.header-nav_item {
+  color: var(--cl-blue);
+  margin-left: 25px;
+}
+
+.header-nav_item:hover {
+  color: var(--cl-yellow);
 }

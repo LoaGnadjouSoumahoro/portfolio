@@ -16,23 +16,24 @@ const Header = () => {
           </div>
         </div>
         <div className='header-nav'>
-          <nav className='header-nav_items'>
+          <div className='header-nav_items'>
             <Link className='header-nav_item' to='/#hero'>
               Home
             </Link>
-            <Link className='header-nav_item' to='/#aboutme'>
+
+            <Link className='header-nav_item' to='/#aboutMe'>
               About Me
             </Link>
             <Link className='header-nav_item' to='/#skills'>
               Skills
             </Link>
-            <Link className='header-nav_item' to='/#projet'>
+            <Link className='header-nav_item' to='/#projects'>
               Projet
             </Link>
             <Link className='header-nav_item' to='/#contact'>
               Contact
             </Link>
-          </nav>
+          </div>
         </div>
       </div>
     </Container>
