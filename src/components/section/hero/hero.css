@@ -1,5 +1,5 @@
 .hero-container {
-  background: linear-gradient(var(--cl-blue), var(--cl-yellow));
+  background: linear-gradient(var(--cl-yellow), var(--cl-blue));
   margin-top: 18px;
   height: calc(100vh - 50px);
 }
@@ -25,18 +25,18 @@
   padding-bottom: 30px;
 }
 
-.hero-content_button {
+/* .hero-content_button {
   background-color: var(--cl-blue);
   height: 2rem;
   width: 4rem;
   padding-inline: 1rem;
   padding-block: 0.25rem;
-  color: var(--cl-white);
-  /*margin-top: 30px;
+  color: var(--cl-white); */
+/*margin-top: 30px;
   */
-  border-radius: var(--border-raduis);
+/* border-radius: var(--border-raduis);
   -webkit-border-radius: var(--border-raduis);
   -moz-border-radius: var(--border-raduis);
   -ms-border-radius: var(--border-raduis);
   -o-border-radius: var(--border-raduis);
-}
+} */

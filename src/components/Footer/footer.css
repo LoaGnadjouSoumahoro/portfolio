@@ -8,5 +8,6 @@ footer {
   display: flex;
   justify-content: space-between;
   color: var(--cl-white);
+  font-size: var(--fs-12);
   /* align-items: center; */
 }

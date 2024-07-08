@@ -3,9 +3,9 @@
 import './home.css';
 import Hero from '../../components/section/hero';
 import AboutMe from '../../components/section/aboutMe';
-import Skills from '../../components/section/skills';
-import Projets from '../../components/section/projets';
-import Contact from '../../components/section/contact';
+// import Skills from '../../components/section/skills';
+// import Projets from '../../components/section/projets';
+// import Contact from '../../components/section/contact';
 
 const Home = () => {
   //   const projets = [
@@ -29,9 +29,9 @@ const Home = () => {
     <div>
       <Hero />
       <AboutMe />
-      <Skills />
+      {/* <Skills />
       <Projets />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 };

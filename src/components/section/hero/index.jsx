@@ -1,4 +1,5 @@
 import img from '../../../media/svg/hero img.svg';
+import Button from '../../button';
 import Container from '../../layout/container/Container';
 import './hero.css';
 
@@ -17,9 +18,7 @@ const Hero = () => {
               led me to explore Figma, where I've developed design knowledge to complement my front-end development
               skills.
             </p>
-            <a href='#projects' className='hero-content_button'>
-              View My Work
-            </a>
+            <Button />
           </div>
           <div className='hero-content_img'>
             <img src={img} alt='' />

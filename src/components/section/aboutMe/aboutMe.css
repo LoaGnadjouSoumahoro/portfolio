@@ -1,0 +1,36 @@
+.aboutMe {
+  height: 100vh;
+  display: flex;
+  gap: 50px;
+  margin-top: 70px;
+}
+
+.aboutMe-img {
+  width: 800px;
+  height: 430px;
+  margin-bottom: 100px;
+  /*position: relative;
+  */
+  background-color: var(--cl-yellow);
+  border-radius: 30% 70% 14% 86% / 85% 30% 70% 15%;
+  -webkit-border-radius: 30% 70% 14% 86% / 85% 30% 70% 15%;
+  -moz-border-radius: 30% 70% 14% 86% / 85% 30% 70% 15%;
+  -ms-border-radius: 30% 70% 14% 86% / 85% 30% 70% 15%;
+  -o-border-radius: 30% 70% 14% 86% / 85% 30% 70% 15%;
+}
+
+.aboutMe-img img {
+  width: 280px;
+  position: relative;
+  bottom: 60px;
+  left: 30px;
+}
+
+.aboutMe-text h2 {
+  color: var(--cl-blue);
+  margin-bottom: 30px;
+}
+
+.aboutMe-text p {
+  margin-bottom: 30px;
+}
