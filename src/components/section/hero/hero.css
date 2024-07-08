@@ -1,6 +1,7 @@
 .hero-container {
   background: linear-gradient(var(--cl-blue), var(--cl-yellow));
   margin-top: 18px;
+  height: calc(100vh - 50px);
 }
 .hero {
   display: flex;
