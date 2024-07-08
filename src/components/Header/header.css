@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin-block: 8px;
+  height: 60px;
 }
 
 .header-logo {
