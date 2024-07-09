@@ -34,3 +34,26 @@
 .aboutMe-text p {
   margin-bottom: 30px;
 }
+
+.aboutMe-button a {
+  background-color: var(--cl-blue);
+  height: 2rem;
+  width: 4rem;
+  padding-inline: 1rem;
+  padding-block: 0.25rem;
+  color: var(--cl-white);
+
+  /*margin-top: 30px;
+    */
+  border-radius: var(--border-raduis);
+  -webkit-border-radius: var(--border-raduis);
+  -moz-border-radius: var(--border-raduis);
+  -ms-border-radius: var(--border-raduis);
+  -o-border-radius: var(--border-raduis);
+}
+
+.aboutMe-button a:hover {
+  background-color: var(--cl-yellow);
+  color: var(--cl-blue);
+  font-weight: bold;
+}

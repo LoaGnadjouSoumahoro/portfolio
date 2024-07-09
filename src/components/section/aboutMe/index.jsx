@@ -1,7 +1,7 @@
 import Container from '../../layout/container/Container';
 import loa from '../../../media/svg/foto loa.svg';
 import './aboutMe.css';
-import Button from '../../button';
+// import Button from '../../button';
 
 const AboutMe = () => {
   return (
@@ -20,7 +20,9 @@ const AboutMe = () => {
             My constant desire for growth drives me to explore new technologies and deepen my knowledge in design and
             web development.
           </p>
-          <Button />
+          <div className='aboutMe-button'>
+            <a href='#projects'>View My Work</a>
+          </div>
         </div>
       </div>
     </Container>
