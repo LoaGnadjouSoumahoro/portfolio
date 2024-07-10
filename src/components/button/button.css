@@ -5,6 +5,7 @@
   padding-inline: 1rem;
   padding-block: 0.25rem;
   color: var(--cl-white);
+
   /*margin-top: 30px;
     */
   border-radius: var(--border-raduis);
@@ -15,5 +16,7 @@
 }
 
 .button:hover {
-  background-color: var(--cl-yellow);
+  background-color: var(--cl-white);
+  color: var(--cl-blue);
+  font-weight: bold;
 }
