@@ -2,3 +2,11 @@
   width: 1140px;
   margin-inline: auto;
 }
+
+.typography-h2 {
+  font-size: var(--h2-font-size);
+  font-weight: var(--weight-700);
+  line-height: var(--title-line-height);
+  color: var(--cl-blue);
+  font-family: 'Montserrat';
+}

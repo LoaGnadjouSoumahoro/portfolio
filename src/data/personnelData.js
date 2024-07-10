@@ -8,7 +8,7 @@ export const PERSONNEL_DATA = {
   title_contact: 'My Address',
   phone: '0032 497 2695 07',
   icon_phone: phone,
-  title_phone: 'Contact 24/7',
+  title_phone: 'Contact 24h /7j',
   email: 'loagnadjou@gmail.com',
   icon_email: email,
   title_email: 'Email address',

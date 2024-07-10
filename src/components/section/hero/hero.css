@@ -1,17 +1,16 @@
 .hero-container {
   background: var(--cl-yellow);
-  margin-top: 18px;
-  height: calc(100vh - 20px);
+  height: calc(100vh - 70px);
 }
 
 .hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: -20px;
+  margin: auto;
 }
 .hero-content {
-  margin-top: -100px;
+  margin-top: -70px;
   color: var(--cl-white);
 }
 
@@ -36,7 +35,7 @@
 }
 
 .hero-content_button {
-  background-color: var(--cl-white);
+  background-color: rgba(255, 255, 255, 0.566);
   height: 2rem;
   width: 4rem;
   padding-inline: 1rem;
@@ -53,7 +52,7 @@
 
 .hero-content_button:hover {
   background: #3a529987;
-  color: var(--cl-white);
+  color: white;
 }
 
 .hero-content_button span {
