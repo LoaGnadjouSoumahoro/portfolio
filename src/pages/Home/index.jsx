@@ -3,7 +3,7 @@
 import './home.css';
 import Hero from '../../components/section/hero';
 import AboutMe from '../../components/section/aboutMe';
-// import Skills from '../../components/section/skills';
+import Skills from '../../components/section/skills';
 // import Projets from '../../components/section/projets';
 // import Contact from '../../components/section/contact';
 
@@ -29,8 +29,8 @@ const Home = () => {
     <div>
       <Hero />
       <AboutMe />
-      {/* <Skills />
-      <Projets />
+      <Skills />
+      {/*<Projets />
       <Contact /> */}
     </div>
   );

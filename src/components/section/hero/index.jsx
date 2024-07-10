@@ -3,6 +3,7 @@ import Button from '../../button';
 import Container from '../../layout/container/Container';
 import downloadBlue from '../../../media/svg/download blue.svg';
 import './hero.css';
+import cv from '../../../cv/LoaSOUMAHORO_CV.pdf';
 
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
                 <Button />
               </div>
               <div>
-                <a href='#projects' className='hero-content_button'>
+                <a href={cv} download='LoaSOUMAHORO_CV' className='hero-content_button' target='_blank'>
                   <span>Download CV</span>
                   <img src={downloadBlue} alt='' />
                 </a>
