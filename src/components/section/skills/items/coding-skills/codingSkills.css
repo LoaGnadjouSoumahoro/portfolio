@@ -1,9 +1,136 @@
 .codingSkills {
-  height: 45px;
+  min-height: 100vh;
 }
 
-.codingSkills-container h2 {
+.codingSkills h2 {
   text-align: center;
-  font-size: var(--h2-font-size);
-  font-weight: var(--weight-700);
+  margin-block: 50px;
+}
+
+.codingSkills-container {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.codingSkills-container_item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 48%;
+  flex: 0 0 48%;
+  flex-direction: 0 0 48%;
+  max-width: 48%;
+}
+
+.codingSkills-container_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.codingSkills-container_info p {
+  font-weight: 600;
+  font-size: var(--text-font-size);
+  line-height: var(--lh-text);
+  opacity: 1;
+  animation: showText 0.5s 1s linear forwards;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  -webkit-animation: showText 0.5s 1s linear forwards;
+}
+
+.progress-line {
+  margin-top: 7px;
+  height: 10px;
+  width: 100%;
+  background-color: #cdcdcd;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  position: relative;
+}
+
+.progress-line span {
+  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  transform-origin: left;
+  -webkit-transform-origin: left;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  -webkit-animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  height: 100%;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  position: absolute;
+  background-color: var(--cl-yellow);
+  transform: 1s all;
+}
+
+.progress-line span.animate {
+  animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+  -webkit-animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@-webkit-keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animate {
+  100% {
+    -webkit-transition: scaleX(1);
+    transition: scaleX(1);
+  }
+}
+@keyframes animate {
+  100% {
+    -webkit-transition: scaleX(1);
+    transition: scaleX(1);
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1350px;
+  }
 }

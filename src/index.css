@@ -44,6 +44,9 @@
   --text-font-size: 1.125rem;
   --small-font-size: 0.875rem;
 
+  /* ========== Line height ========== */
+  --lh-text: 22px;
+
   /* ========== Font weight ========== */
   --weight-700: 700;
   --weight-400: 400;
@@ -63,6 +66,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 html {
@@ -83,5 +87,22 @@ ul {
 a {
   text-decoration: none;
   /* color: var(--cl-black); */
+  color: black;
+}
+
+.container {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: 'Biryani', sans-serif !important;
+  font-size: var(--fs-14);
+  font-weight: normal !important;
+  opacity: 1;
   color: black;
 }
