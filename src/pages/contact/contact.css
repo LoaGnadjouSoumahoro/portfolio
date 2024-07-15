@@ -48,7 +48,7 @@
     'name name name'
     ' email email phone'
     'subject subject subject'
-    'textArea textArea  textArea'
+    'textarea textarea  textarea'
     'btn-submit . .';
   gap: 10px;
 }
@@ -69,13 +69,13 @@
   grid-area: subject;
 }
 
-.textArea {
-  grid-area: textArea;
+.textarea {
+  grid-area: textarea;
 }
 
 .btn-submit {
-  background-color: var(--cl-blue);
-  color: var(--cl-white);
+  background-color: var(--cl-yellow);
+  color: var(--cl-blue);
   grid-area: btn-submit;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -83,17 +83,30 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   cursor: pointer;
+  border: none;
 }
 
 .btn-submit:hover {
-  background-color: var(--cl-yellow);
-  color: var(--cl-blue);
+  background-color: var(--cl-blue);
+  color: var(--cl-white);
   font-weight: bold;
   border: none;
 }
 
 input::placeholder,
-.textArea::placeholder {
-  padding-left: 10px;
+textarea::placeholder {
   font-weight: bold;
+}
+
+textarea {
+  resize: none;
+  padding-block: 15px;
+  padding-inline: 15px;
+  font-family: 'Biryani';
+}
+
+input[type='text'] {
+  padding-block: 15px;
+  padding-inline: 15px;
+  font-family: 'Biryani';
 }
