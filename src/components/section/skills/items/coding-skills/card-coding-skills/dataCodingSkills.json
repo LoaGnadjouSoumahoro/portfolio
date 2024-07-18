@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Front-end Developer",
+    "description": "I code things from scratch, and gracefully bring the ideas to life and to the bowser, paying maximal attention to your vision of the product.  MySQL",
+
+    "technos": "HTML, Css, Javascript, React, Typescript",
+    "myTools": "Bootstrap, Tailwind css, ReactJS, Github, vscode"
+  },
+  {
+    "title": "Back-end Developer",
+    "description": "My curiosity and desire for performance led me to explore backend development. Although I'm just starting out, I'm enthusiastic about developing my skills in this area.",
+    "technos": "Java",
+    "myTools": "Java, MySQL"
+  },
+  {
+    "title": "Designer",
+    "description": "Design is a field that I am passionate about, and I am currently in an exploration phase. Thanks to the skills I have recently acquired, I am able to create simple prototypes.",
+    "technos": "Web",
+    "myTools": "Figma"
+  }
+]

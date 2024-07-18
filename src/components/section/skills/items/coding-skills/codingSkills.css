@@ -8,24 +8,10 @@
 }
 
 .codingSkills-container {
-  margin-top: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  gap: 20px;
 }
 
 .codingSkills-container_item {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 48%;
-  flex: 0 0 48%;
-  flex-direction: 0 0 48%;
-  max-width: 48%;
+  display: flex;
 }
 
 .codingSkills-container_info {
@@ -85,6 +71,10 @@
 .progress-line span.animate {
   animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
   -webkit-animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.codingSkills-container_item {
+  display: flex;
 }
 
 @-webkit-keyframes showText {
