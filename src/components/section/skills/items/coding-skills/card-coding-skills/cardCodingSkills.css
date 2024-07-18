@@ -1,0 +1,38 @@
+.cardCodingSkills {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.cardCodingSkills-item {
+  display: inline-block;
+  border: 2px solid var(--cl-yellow);
+  width: 30%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 100px;
+  padding-inline: 15px;
+}
+
+.cardCodingSkills-item h3 {
+  color: var(--cl-blue);
+  margin-bottom: 15px;
+}
+
+.cardCodingSkills-item p {
+  font-size: var(--text-font-size);
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.cardCodingSkills-item h4 {
+  color: var(--cl-blue);
+}

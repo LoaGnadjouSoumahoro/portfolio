@@ -1,0 +1,33 @@
+.education-container {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.education-container h3 {
+  text-align: center;
+  color: var(--cl-blue);
+}
+
+.education-container h5 {
+  color: var(--cl-blue);
+}
+
+.education-container_items {
+  margin-bottom: 15px;
+}
+
+.education-container_items-infos {
+  margin-top: 10px;
+}
+
+.education-container_items-infos h5 {
+  font-weight: var(--weight-700);
+}
+
+.education-container_items-date {
+  display: inline-block;
+  background-color: var(--cl-yellow);
+  color: var(--cl-white);
+  font-weight: var(--weight-700);
+  padding-inline: 10px;
+}
