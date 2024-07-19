@@ -6,6 +6,7 @@
 .education-container h3 {
   text-align: center;
   color: var(--cl-blue);
+  margin-top: 50px;
 }
 
 .education-container h5 {
@@ -14,14 +15,26 @@
 
 .education-container_items {
   margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 70px;
+  column-gap: 20px;
+  margin-top: 50px;
 }
 
 .education-container_items-infos {
   margin-top: 10px;
+  margin-left: 15px;
+  width: 90%;
 }
 
 .education-container_items-infos h5 {
   font-weight: var(--weight-700);
+}
+
+#location {
+  font-weight: var(--weight-700);
+  color: gray;
 }
 
 .education-container_items-date {
