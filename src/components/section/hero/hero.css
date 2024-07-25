@@ -1,6 +1,6 @@
 .hero-container {
   background: var(--cl-yellow);
-  height: calc(100vh - 70px);
+  height: 481px;
 }
 
 .hero {

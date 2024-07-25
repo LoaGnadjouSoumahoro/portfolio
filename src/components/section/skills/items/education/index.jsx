@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <div className='education'>
       <div className='education-container'>
-        <h3>Education</h3>
+        <h2>Education</h2>
         <div className='education-container_items'>
           {education.map((item1, index) => (
             <div key={index}>
@@ -26,7 +26,7 @@ const Education = () => {
         </div>
       </div>
       <div className='education-container'>
-        <h3>Experience</h3>
+        <h2>Experience</h2>
         <div className='education-container_items'>
           {experience.map((item2, index) => (
             <div key={index}>
